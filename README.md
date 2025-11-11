@@ -219,9 +219,9 @@ This project is open source and available under the MIT License.
 ---
 
 ### 🗺️ **Interactive Location Map**
-<img src="https://github.com/user-attachments/assets/your-image-2.png" alt="Interactive Map" width="800"/>
+<img src="https://github.com/user-attachments/assets/4f5d185b-3262-4697-9784-ce741adf188d" alt="Delhi Full Map View - Interactive Leaflet Map" width="800"/>
 
-*Leaflet-based maps with live markers, pollutant breakdown, and 3-day forecast*
+*Full-screen Leaflet map with OpenStreetMap tiles, zoom controls, location marker for Delhi, and detailed street-level view*
 
 ---
 
