@@ -248,7 +248,7 @@ This project is open source and available under the MIT License.
 
 ---
 
-## ✨ Key Features Visible in Screenshots
+## ➡️ Key Features Visible in Screenshots
 
 ### 1️⃣ **Top Section**
 - 🌸 **Season Card** - Spring/Summer/Winter indicators
