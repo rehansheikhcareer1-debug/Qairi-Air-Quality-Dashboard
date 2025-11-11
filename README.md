@@ -192,9 +192,65 @@ This project is open source and available under the MIT License.
 - News API for environmental news
 - All open-source libraries used in this project
 
-## 📸 Screenshots
+## 📸 Screenshots & Demo
 
-(Add screenshots of your application here)
+### 🏠 Home Dashboard
+Beautiful glassmorphism UI with real-time AQI and weather data
+
+### ⏰ Enhanced Clock Widget
+- Working analog clock with moving hands
+- Digital time display with gradient effects
+- Live timezone and date information
+
+### 🔔 Smart Alert System
+Dedicated page for setting custom AQI alerts with email/SMS notifications
+
+### 🗺️ Interactive Maps
+Leaflet-based maps with live location markers and coordinates
+
+### 📊 Detailed Analytics
+- Real-time pollutant measurements (PM2.5, PM10, CO, NO2, SO2, O3)
+- AQI trend graphs and forecasts
+- Health recommendations based on current AQI
+
+### 🌍 Global Coverage
+60+ countries with flags, capitals, and real-time data
+
+**[View Detailed Screenshots & Features →](SCREENSHOTS.md)**
+
+---
+
+## ✨ Unique Features That Stand Out
+
+### 1. **Professional Clock Widget**
+- Fully functional analog clock with hour, minute, and second hands
+- Smooth animations and transitions
+- Digital display with beautiful gradient text
+- Real-time updates every second
+
+### 2. **Smart Alert System**
+- Dedicated alert configuration page
+- Custom AQI threshold slider (0-300)
+- Email and SMS notification toggles
+- Settings saved in localStorage
+
+### 3. **Beautiful UI/UX**
+- Glassmorphism design throughout
+- Weather-based dynamic backgrounds
+- Smooth page transitions
+- Responsive on all devices
+
+### 4. **Real-time Integration**
+- Live AQI data from OpenWeather API
+- Automatic data refresh
+- Accurate pollutant measurements
+- 3-day forecast predictions
+
+### 5. **Interactive Features**
+- City search with live suggestions
+- Country selector with flags
+- Interactive maps with markers
+- Click-to-navigate country details
 
 ## 🐛 Known Issues
 
