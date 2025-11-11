@@ -1,0 +1,134 @@
+/* Global styles */
+.App {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0a0e27, #1a1f3a, #2a1f3f);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Remove tap highlight */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Weather animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes drift {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100vw); }
+}
+
+/* Rain effect */
+.rain {
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.6));
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to { transform: translateY(100vh); }
+}
+
+/* Snow effect */
+.snow {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+  to { 
+    transform: translateY(100vh) translateX(50px);
+    opacity: 0;
+  }
+}
+
+/* Drift animation for clouds */
+@keyframes drift {
+  0% { transform: translateX(-20px); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(-20px); }
+}
+
+.animate-drift {
+  animation: drift 6s ease-in-out infinite;
+}
+
+/* Cloud movement across screen */
+@keyframes moveCloud {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(120vw); }
+}
+
+/* Full screen cloud movement */
+@keyframes moveCloudFullScreen {
+  0% { 
+    transform: translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% { 
+    transform: translateX(115vw);
+    opacity: 0;
+  }
+}
+
+/* Cloud movement across card */
+@keyframes moveCloudAcross {
+  0% { 
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% { 
+    transform: translateX(400px);
+    opacity: 0;
+  }
+}
+
+/* Cloud animation */
+.cloud {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  animation: drift 30s linear infinite;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+/* Remove global transitions to avoid vibration on page change */
+
+/* Smooth transitions for interactive elements only */
+a, button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Prevent layout shift */
+body {
+  overflow-y: scroll;
+}
