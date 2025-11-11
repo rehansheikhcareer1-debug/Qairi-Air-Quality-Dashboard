@@ -1,6 +1,21 @@
-# Qairi - Air Quality Monitoring Dashboard 🌍
+<div align="center">
 
-A comprehensive full-stack web application for real-time air quality monitoring and weather tracking across 60+ countries worldwide.
+# 🌍 Qairi - Air Quality Monitoring Dashboard
+
+### *Breathe Better, Live Healthier*
+
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Django](https://img.shields.io/badge/Django-5.2.7-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+**A comprehensive full-stack web application for real-time air quality monitoring and weather tracking across 60+ countries worldwide.**
+
+[🚀 Live Demo](#-live-application-screenshots) • [✨ Features](#-unique-features-that-stand-out) • [📖 Documentation](FEATURES.md) • [🤝 Contributing](#-contributing)
+
+---
+
+</div>
 
 ## ✅ Features
 
@@ -192,31 +207,139 @@ This project is open source and available under the MIT License.
 - News API for environmental news
 - All open-source libraries used in this project
 
-## 📸 Screenshots & Demo
+## 📸 Live Application Screenshots
 
-### 🏠 Home Dashboard
-Beautiful glassmorphism UI with real-time AQI and weather data
+<div align="center">
 
-### ⏰ Enhanced Clock Widget
-- Working analog clock with moving hands
-- Digital time display with gradient effects
-- Live timezone and date information
+### 🏠 **Home Dashboard - Real-time AQI Monitoring**
+<img src="https://github.com/user-attachments/assets/your-image-1.png" alt="Home Dashboard" width="800"/>
 
-### 🔔 Smart Alert System
-Dedicated page for setting custom AQI alerts with email/SMS notifications
+*Beautiful glassmorphism UI with live AQI data, weather information, and enhanced analog clock widget*
 
-### 🗺️ Interactive Maps
-Leaflet-based maps with live location markers and coordinates
+---
 
-### 📊 Detailed Analytics
-- Real-time pollutant measurements (PM2.5, PM10, CO, NO2, SO2, O3)
-- AQI trend graphs and forecasts
-- Health recommendations based on current AQI
+### 🗺️ **Interactive Location Map**
+<img src="https://github.com/user-attachments/assets/your-image-2.png" alt="Interactive Map" width="800"/>
 
-### 🌍 Global Coverage
-60+ countries with flags, capitals, and real-time data
+*Leaflet-based maps with live markers, pollutant breakdown, and 3-day forecast*
 
-**[View Detailed Screenshots & Features →](SCREENSHOTS.md)**
+---
+
+### 📊 **AQI Trends & Analytics**
+<img src="https://github.com/user-attachments/assets/your-image-3.png" alt="AQI Analytics" width="800"/>
+
+*Historical AQI data visualization, health recommendations, and tourist places*
+
+---
+
+### 📰 **Environmental News Feed**
+<img src="https://github.com/user-attachments/assets/your-image-4.png" alt="News Feed" width="800"/>
+
+*Real-time environmental news and AQI scale guide*
+
+---
+
+### 🌍 **Global Coverage Footer**
+<img src="https://github.com/user-attachments/assets/your-image-5.png" alt="Footer" width="800"/>
+
+*60+ countries support with complete contact information*
+
+</div>
+
+---
+
+## ✨ Key Features Visible in Screenshots
+
+### 1️⃣ **Top Section**
+- 🌸 **Season Card** - Spring/Summer/Winter indicators
+- 🌡️ **Live Temperature** - Real-time weather data
+- 🔔 **Notification Bell** - With badge counter
+- 👤 **User Profile** - Logged in as "rehansheikh"
+- 🇮🇳 **Country Selector** - India flag with dropdown
+
+### 2️⃣ **Main Dashboard**
+- 📍 **AQI Card** - Delhi showing 150 (Unhealthy)
+- 😷 **AQI Character** - Animated emoji based on air quality
+- 📊 **Pollutant Meters** - PM2.5: 92.6, PM10: 49.3
+- 🌈 **Color-coded Scale** - Good → Moderate → Unhealthy → Hazardous
+
+### 3️⃣ **Weather Card**
+- ☁️ **Current Condition** - Haze with cloud icon
+- 🌡️ **Temperature** - 26°C
+- 💧 **Humidity** - 27%
+- 💨 **Wind Speed** - 11.1 km/h
+- ☀️ **UV Index** - 7
+
+### 4️⃣ **Enhanced Clock Widget** ⏰
+- 🕐 **Analog Clock** - Working hour, minute, second hands
+- 🔢 **Digital Display** - 04:13:34 PM
+- 📅 **Full Date** - Tuesday, November 11, 2025
+- 🌍 **Timezone** - IST, Week 2
+
+### 5️⃣ **Location Info Sidebar**
+- 📍 **Delhi** - Capital of India, Red Fort, India Gate
+- 🌡️ **Current AQI** - 150 (color-coded)
+- 🗺️ **Coordinates** - 28.65°, 77.22°
+- 📅 **3-Day Forecast** - Tomorrow: 88, Day 2: 95, Day 3: 112
+
+### 6️⃣ **Interactive Map**
+- 🗺️ **Leaflet Integration** - OpenStreetMap tiles
+- 📍 **Location Marker** - Delhi pinpoint
+- 🔍 **Zoom Controls** - + / - buttons
+- 📏 **Fullscreen Mode** - Expand option
+
+### 7️⃣ **Major Air Pollutants**
+- 🟠 **PM2.5** - 49.3 μg/m³ (Particulate Matter)
+- 🔵 **PM10** - 92.6 μg/m³ (Coarse Particles)
+- ⚫ **CO** - 399 μg/m³ (Carbon Monoxide)
+- 🟣 **NO2** - Nitrogen Dioxide levels
+- 🟡 **SO2** - Sulfur Dioxide levels
+- 🟢 **O3** - Ozone levels
+
+### 8️⃣ **AQI Trends Graph**
+- 📈 **Weekly Data** - Mon to Sun visualization
+- 📊 **Line Chart** - Smooth curve with data points
+- 🎯 **Current Value** - 95 (Trending)
+- 🔢 **Predictions** - 78, 95, 112 for next days
+
+### 9️⃣ **Popular Places in Delhi**
+- 🏛️ **Red Fort** - Historic fort complex, UNESCO
+- 🕌 **India Gate** - War memorial and iconic landmark
+- 🛕 **Lotus Temple** - Bahá'í House of Worship
+- 🏰 **Qutub Minar** - Tallest brick minaret
+
+### 🔟 **Health Recommendations**
+- ✅ **Wear N95 mask** - Essential protection
+- ⚠️ **Avoid outdoor exercise** - Stay indoors
+- 💊 **Based on AQI** - Real-time health advice
+
+### 1️⃣1️⃣ **Live Updates Feed**
+- 🔄 **Data Refreshed** - 2 minutes ago
+- 📈 **AQI Improved** - 15 minutes ago
+- 🌤️ **Weather Update** - 1 hour ago
+
+### 1️⃣2️⃣ **Latest AQI News**
+- 📰 **4 News Articles** - Real-time environmental news
+- 🖼️ **Featured Images** - News thumbnails
+- 🔗 **Read Full Story** - External links
+- 📍 **Location-based** - Delhi-specific news
+
+### 1️⃣3️⃣ **AQI Scale Guide**
+- 🟢 **Good (0-50)** - 😊 Air quality is satisfactory
+- 🟡 **Moderate (51-100)** - 😐 Acceptable for most
+- 🟠 **Unhealthy SG (101-150)** - 😷 Sensitive groups affected
+- 🔴 **Unhealthy (151-200)** - 😨 Everyone affected
+- 🟣 **Very Unhealthy (201-300)** - 🤢 Health alert
+- ⚫ **Hazardous (301+)** - ☠️ Emergency conditions
+
+### 1️⃣4️⃣ **Professional Footer**
+- 📧 **Email** - rehan.sheikh.career1@gmail.com
+- 📱 **Phone** - +91 7719984704
+- 📍 **Location** - Hyderabad, Telangana, India
+- 🌍 **60+ Countries** - Global coverage links
+- 👨‍💻 **Developer Credit** - Rehan R Sheikh
+
+**[View Detailed Features Documentation →](FEATURES.md)**
 
 ---
 
