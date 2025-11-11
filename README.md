@@ -207,7 +207,7 @@ This project is open source and available under the MIT License.
 - News API for environmental news
 - All open-source libraries used in this project
 
-## 📸 Live Application Screenshots
+## ➡️ Live Application Screenshots
 
 <div align="center">
 
