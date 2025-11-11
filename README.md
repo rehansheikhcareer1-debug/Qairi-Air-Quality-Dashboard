@@ -233,16 +233,16 @@ This project is open source and available under the MIT License.
 ---
 
 ### 📰 **Environmental News Feed**
-<img src="https://github.com/user-attachments/assets/fc1bd589-6c1c-4814-8519-760ed90f40a6" alt="Latest AQI News - Real-time Environmental Updates" width="800"/>
+<img src="https://github.com/user-attachments/assets/a90f225d-f7b7-4b2f-a0d2-9448ff4beab2" alt="Latest AQI News - Real-time Environmental Updates" width="800"/>
 
 *Real-time environmental news feed with featured images, headlines about air quality, climate change, and pollution - includes articles about cold wave, clean air protests, navigation systems, and health impacts*
 
 ---
 
 ### 🌍 **Global Coverage Footer**
-<img src="https://github.com/user-attachments/assets/your-image-5.png" alt="Footer" width="800"/>
+<img src="https://github.com/user-attachments/assets/fc1bd589-6c1c-4814-8519-760ed90f40a6" alt="Professional Footer - 60+ Countries Coverage" width="800"/>
 
-*60+ countries support with complete contact information*
+*Comprehensive footer with 60+ countries links, contact information (Email: rehan.sheikh.career1@gmail.com, Phone: +91 7719984704), social media links, and developer credit - Developed by Rehan R Sheikh*
 
 </div>
 
