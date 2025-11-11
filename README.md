@@ -2,7 +2,7 @@
 
 A comprehensive full-stack web application for real-time air quality monitoring and weather tracking across 60+ countries worldwide.
 
-## 🚀 Features
+## ✅ Features
 
 - **Real-time AQI Monitoring** - Live air quality data from OpenWeather API
 - **Weather Integration** - Current weather conditions with beautiful animations
