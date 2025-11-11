@@ -233,9 +233,9 @@ This project is open source and available under the MIT License.
 ---
 
 ### 📰 **Environmental News Feed**
-<img src="https://github.com/user-attachments/assets/your-image-4.png" alt="News Feed" width="800"/>
+<img src="https://github.com/user-attachments/assets/fc1bd589-6c1c-4814-8519-760ed90f40a6" alt="Latest AQI News - Real-time Environmental Updates" width="800"/>
 
-*Real-time environmental news and AQI scale guide*
+*Real-time environmental news feed with featured images, headlines about air quality, climate change, and pollution - includes articles about cold wave, clean air protests, navigation systems, and health impacts*
 
 ---
 
