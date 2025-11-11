@@ -212,9 +212,9 @@ This project is open source and available under the MIT License.
 <div align="center">
 
 ### 🏠 **Home Dashboard - Real-time AQI Monitoring**
-<img src="https://github.com/user-attachments/assets/your-image-1.png" alt="Home Dashboard" width="800"/>
+<img src="https://github.com/user-attachments/assets/8abf41b8-5b4c-4a0a-b09a-6f6638ea5243" alt="Qairi Home Dashboard - Full Page Screenshot" width="800"/>
 
-*Beautiful glassmorphism UI with live AQI data, weather information, and enhanced analog clock widget*
+*Complete home page showcasing: AQI monitoring, weather card, enhanced analog clock, interactive map, pollutants breakdown, AQI trends graph, tourist places, environmental news feed, health recommendations, live updates, and professional footer*
 
 ---
 
