@@ -226,9 +226,9 @@ This project is open source and available under the MIT License.
 ---
 
 ### 📊 **AQI Trends & Analytics**
-<img src="https://github.com/user-attachments/assets/your-image-3.png" alt="AQI Analytics" width="800"/>
+<img src="https://github.com/user-attachments/assets/6cbabac1-e282-415f-bfad-b8b29f14a100" alt="AQI Trends Graph - Weekly Data Visualization" width="800"/>
 
-*Historical AQI data visualization, health recommendations, and tourist places*
+*Weekly AQI trend graph with smooth line chart, data points for each day, current value (95), and predictions (78, 95, 112) for upcoming days*
 
 ---
 
