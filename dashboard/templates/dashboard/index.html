@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Quality Dashboard</title>
+  <link rel="stylesheet" href="{% static 'dashboard/style.css' %}">
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <span class="earth" id="earth">🌍</span>
+      Air Quality Dashboard
+    </h1>
+
+    <form id="aqiForm" method="get">
+      <input type="text" name="city" placeholder="Enter City"
+             value="{% if data.city %}{{ data.city }}{% endif %}">
+      <button type="submit">Check AQI</button>
+    </form>
+
+    {% if data.error %}
+      <div class="city-card bad">
+        <h2>Error</h2>
+        <p>{{ data.error }}</p>
+      </div>
+    {% else %}
+      {% if data %}
+      <div class="city-card">
+        <h2>{{ data.city }} ({{ data.country }})</h2>
+        <p class="temp">Temperature: {{ data.weather.temp }}°C</p>
+        <p>Humidity: {{ data.weather.humidity }}%</p>
+        <p>Condition: {{ data.weather.desc }}</p>
+        <p class="aqi-scale"><strong>AQI Scale (1–5):</strong> {{ data.aqi_scale_1_5 }}</p>
+        <p>PM2.5: {{ data.pollutants.pm2_5 }}</p>
+        <p>PM10: {{ data.pollutants.pm10 }}</p>
+        <p>O₃: {{ data.pollutants.o3 }}</p>
+      </div>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  <!-- JS: Earth Rotation Animation -->
+  <script>
+    const form = document.getElementById('aqiForm');
+    const earth = document.getElementById('earth');
+
+    form.addEventListener('submit', () => {
+      earth.classList.add('rotate');
+      setTimeout(() => {
+        earth.classList.remove('rotate');
+      }, 1500); // 1.5 second rotation
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+<img src="{% static 'dashboard/earth.png' %}" alt="earth" class="earth" id="earth">
+dashboard/static/dashboard/earth.png
