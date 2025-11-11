@@ -11,7 +11,7 @@
 
 **A comprehensive full-stack web application for real-time air quality monitoring and weather tracking across 60+ countries worldwide.**
 
-[🚀 Live Demo](#-live-application-screenshots) • [✨ Features](#-unique-features-that-stand-out) • [📖 Documentation](FEATURES.md) • [🤝 Contributing](#-contributing)
+[ 💻 Live Demo](#-live-application-screenshots) • [➡️ Features](#-unique-features-that-stand-out) • [📖 Documentation](FEATURES.md) • [🤝 Contributing](#-contributing)
 
 ---
 
@@ -31,7 +31,7 @@
 - **Health Recommendations** - AQI-based health advice
 - **3-Day Forecast** - Air quality predictions
 
-## 🛠️ Tech Stack
+## 👨‍💻 Tech Stack
 
 ### Frontend
 - **React 19** - Modern UI library
@@ -52,13 +52,13 @@
 - **Mapbox** - Map tiles
 - **News API** - Environmental news
 
-## 📋 Prerequisites
+## 📃 Prerequisites
 
 - Python 3.8+
 - Node.js 14+
 - npm or yarn
 
-## 🔧 Installation
+## ✅ Installation
 
 ### 1. Clone the repository
 ```bash
@@ -82,7 +82,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-### 3. Frontend Setup
+### 🏞️ 3. Frontend Setup
 
 ```bash
 cd frontend
@@ -99,7 +99,7 @@ echo "REACT_APP_NEWS_API_KEY=your_news_api_key" >> .env
 cd ..
 ```
 
-## 🚀 Running the Application
+## ✅ Running the Application
 
 ### Option 1: Using Batch File (Windows - Easiest)
 ```bash
@@ -152,13 +152,13 @@ CheckWeather/
 └── README.md              # This file
 ```
 
-## 🔑 API Keys Required
+## ✅ API Keys Required
 
 1. **OpenWeather API** - Get from [openweathermap.org](https://openweathermap.org/api)
 2. **Mapbox Token** - Get from [mapbox.com](https://www.mapbox.com/)
 3. **News API** - Get from [newsapi.org](https://newsapi.org/)
 
-## 🎨 Features Breakdown
+## ✅ Features Breakdown
 
 ### Home Page
 - Real-time AQI display with color-coded indicators
@@ -200,7 +200,7 @@ This project is open source and available under the MIT License.
 - Phone: +91 7719984704
 - Location: Hyderabad, Telangana, India
 
-## 🙏 Acknowledgments
+## ➡️ Acknowledgments
 
 - OpenWeather API for weather and AQI data
 - Mapbox for map tiles
@@ -343,7 +343,7 @@ This project is open source and available under the MIT License.
 
 ---
 
-## ✨ Unique Features That Stand Out
+## ➡️ Unique Features That Stand Out
 
 ### 1. **Professional Clock Widget**
 - Fully functional analog clock with hour, minute, and second hands
